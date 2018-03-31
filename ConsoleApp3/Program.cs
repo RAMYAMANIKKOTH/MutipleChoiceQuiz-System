@@ -10,7 +10,11 @@ namespace MultipleChoice
     {
         static void Main(string[] args)
         {
+            var student = new Student();
+            student.EmailAddress = "";
+            student.Subject = "";
 
+                 
         }
     }
 }

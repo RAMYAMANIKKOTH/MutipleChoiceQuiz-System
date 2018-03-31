@@ -8,9 +8,9 @@ namespace MultipleChoice
 {
     class Student
     {
-        public int StudentID { get; set; }
+        public int StudentID { get; private set; }
         public string Grade { get; set; }
-        public decimal Result { get; set; }
+        public decimal Result { get; private set; }
         public string Subject { get; set; }
         public string EmailAddress { get; set; }
 
